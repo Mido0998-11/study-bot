@@ -4,7 +4,7 @@ def ask_ai(question):
     url = "https://api-inference.huggingface.co/models/google/flan-t5-base"
 
     headers = {
-        "Authorization": "Bearer YOUR_HF_TOKEN"
+        "Authorization": "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"
     }
 
     payload = {
