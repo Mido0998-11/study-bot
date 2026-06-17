@@ -1,8 +1,8 @@
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
 import db
-from ai import ask_ai
-from pdf_ai import read_pdf, summarize_text
+from ai import ask_ai, summarize_text     # ✅ التعديل هنا: سحبنا دالة التلخيص من ملف ai.py الصح
+from pdf_ai import read_pdf               # ✅ التعديل هنا: سحبنا دالة القراءة فقط من ملف pdf_ai.py
 import os
 
 TOKEN = "8375721826:AAGuPfFzyxTMxKrJ43R7uWKrMddDJjk_o78"
